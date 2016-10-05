@@ -12,6 +12,11 @@ body {
   font-weight: 200;
 }
 
+.nav-bar {
+  margin: 0;
+  float: right;
+}
+
 ul {
   padding-left: 0;
   list-style: none;
@@ -38,6 +43,7 @@ img {
   padding: 0 1rem;
   background: url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png), linear-gradient(to left, #2c3e50, #e74c3c);
   color: #ecf0f1;
+
 }
 
 .hero__fill {
