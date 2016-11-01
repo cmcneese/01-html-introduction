@@ -117,7 +117,7 @@ ul.nav-group {
   text-align: center;
 }
 
-#fancy-text--big {
+.fancy-text--big {
   font-size: 3rem;
 }
 
@@ -156,12 +156,12 @@ ul.nav-group {
 }
 
 .row__column-2-3 {
-  width: calc(100% * 2 / 3 - 2rem;
+  width: calc(100% * 2 / 3 - 2rem);
 }
 
 .section--photo {
   padding: 6em 1rem;
-  background: url('../lights.jpeg') no-repeat center center fixed;
+  background: url('../images/portfoliowk1.jpeg') no-repeat center center fixed;
   background-size: cover;
   color: #ecf0f1;
   text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.7);
@@ -185,7 +185,7 @@ ul.nav-group {
 .polaroid img {
   position: absolute;
   top: 0;
-  width: 0;
+  left: 0;
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -208,7 +208,7 @@ ul.nav-group {
   mix-blend-mode: overlay;
 }
 
-.student-fact .card {
+.student-fact, .card {
   margin: 0;
   padding: 1rem;
   overflow: hidden;
